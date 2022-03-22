@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding: 0; 
+    background-color: #13253a;
+    box-shadow: 10px 5px 5px black;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+     
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: hsla(0,0%,100%,.7);
+}
+a:hover{
+    text-decoration: none;
+    color: hsla(0,0%,100%,.7);	
+}
+
+#navegacao{
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
+    
+}
+
+.nav{
+    color: rgb(255, 255, 255);
+}
+
+.nav-link{
+    color: hsla(0,0%,100%,.7);
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+
+.container-fluid{
+    margin-left: 30px;
+}
+
+#navbarNavDropdown{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
+
+#navbarNavDropdown li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    margin-left: 5px;
+    
+}
+
+/* Carrosel */
+#carousel-caption{
+    margin-left: -500px;
+    margin-bottom: -50px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+#carousel-caption img{
+    height: 200px;
+    width: 300px;
+}
+#carousel-caption #imgOver{
+    height: 30px;
+    width: 300px;
+}
+
+#carousel-caption h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+
+}
+
+/*area da navegação de botoes dos jogos*/
+#jogos-em-destaque{
+    padding-top: 30px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;    
+}
+#jogos-em-destaque2{
+    padding-top: 30px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+#ul-jogos-em-distaque{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    height:60px; 
+    text-align: center;
+    
+}
+#a, #b, #c{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 30px;
+}
+.btn-secondary{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    padding: 5px 20px;
+    
+}
+
+.btn-secondary:hover{
+    background-color: #30cae6;
+    border: 2px solid #30cae6;
+    cursor: pointer;    
+}
+#btn-todosOsgames{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    background-color: #1381fd;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    padding: 15px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#btn-todosOsgames:hover{
+    background-color: #30cae6;
+    font-weight: 600;
+}
+
+/*Card*/
+img, svg {
+    vertical-align: middle;
+}
+.game-card{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #a0a0a0a0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 15px;
+    padding: 0; 
+    text-align: left;   
+}
+.game-card a h3 {
+    color: #fff;
+    text-decoration: none;
+}
+.game-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.game-card .game-image, .game-image img {
+    height: 327px;
+    width: 255px;
+}
+.game-card .game-image {
+    border-radius: 5px;
+    overflow: hidden;
+}
+.game-image {
+    position: relative;
+}
+
+.game-logo {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 37px;
+}
+
+#emBreve{
+    padding-bottom: 10px;
+    padding-top: 30px;
+ }
+/*Background */
+#battle-net-background{
+    background-color: #203247;
+}
+.myBackground{
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blta8f9a8e092360c6c/bltb1b55d28d4835ac9/620171bfa6bb9250d3e44a63/Bnet_Card-06.6.jpg?auto=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#battle-net{
+    height: 650px;
+    margin-left: 60px;
+}
+.battle-net2 img{
+    margin-bottom: 30px; 
+}
+.battle-net2 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.battle-net2 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #959597;
+    margin-bottom: 30px;    
+}
+.battle-net2 button{
+    font-size: 30px;
+    padding: 10px 30px; 
+    border-radius: 40px;
+    align-items: center;
+}
+#pageFooter{
+    background-color: #181717;
+    padding-top: 30px;
+}
+
+#btn-download{
+    background-color: #1381fd;
+    border: 2px solid rgba(93, 187, 241, 0.979);
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+#btn-download:hover{
+    background-color: #30cae6;
+}
+#btn-saibaMais{
+    color: white;
+    background-color: #5c5f8181;
+    border: 2px solid #5e618fef; 
+    margin-left: 30px; 
+    font-size: 25px;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+#btn-saibaMais:hover{
+    color: white;
+    background-color: #7e8199a9;
+    border: 2px solid #acaec2ef;  
+}
